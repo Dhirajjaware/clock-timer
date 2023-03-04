@@ -26,7 +26,6 @@ imgGost1.addEventListener('click', function () {
   playSound('sounds/old-church-bell.mp3');
   // playSound('sounds/orchestrawav-26158.mp3');
 
-  imgGost1.style.display = 'none';
 
   imgGost2.classList.remove('hidden');
 });
@@ -35,4 +34,5 @@ imgGost2.addEventListener('click', function () {
   playSound('sounds/old-church-bell.mp3');
   imgGost2.style.boxShadow = '0px 0px 100rem red';
   document.querySelector('body').style.backgroundColor = '#000';
+
 });
