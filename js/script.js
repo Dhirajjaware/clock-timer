@@ -22,8 +22,9 @@ setInterval(function () {
 }, 1000);
 
 imgGost1.addEventListener('click', function () {
+  playSound('sounds/clock-ticking.mp3');
   playSound('sounds/old-church-bell.mp3');
-  playSound('sounds/orchestrawav-26158.mp3');
+  // playSound('sounds/orchestrawav-26158.mp3');
 
   imgGost1.style.display = 'none';
 
